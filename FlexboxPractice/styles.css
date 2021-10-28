@@ -1,0 +1,24 @@
+@media(min-width: 550px) {
+    .container {
+    display: flex;
+    flex-direction: row;
+    }
+}
+
+.container div {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box1 {
+    flex-basis:50%;
+}
+
+.box2 {
+    flex-basis:50%;
+}
+
+.box3 {
+    flex-basis:50%;
+}
